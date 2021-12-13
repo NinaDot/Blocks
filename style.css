@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.header {
+  background-color: pink;
+  height: 50px;
+  flex-shrink: 0;
+}
+.content {
+  flex-grow: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+}
+.users {
+  background-color: blueviolet;
+  overflow-y: auto;
+  height: 100%;
+  width: 200px;
+ 
+}
+.chat {
+  background-color: blue;
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  
+}
+.footer {
+  background-color: brown;
+  height: 100px;
+  flex-shrink: 0;
+}
